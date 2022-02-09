@@ -21,7 +21,7 @@ nav{
   top:0px;
 }
 nav svg{
-  height: 32x;
+  height: 32px;
   width: 32px;
   color: white;
 }
@@ -266,4 +266,13 @@ background: rgb(15, 109, 38);
   transform: translate(0, -30px);
 
   transition: opacity 250ms ease-out, transform 300ms ease;
+}
+@media screen and (max-width:420px){
+  nav{
+    width:260px;
+  }
+  nav svg{
+    width:18px;
+    height:18px;
+  }
 }
